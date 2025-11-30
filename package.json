@@ -1,0 +1,40 @@
+{
+  "name": "puffvjs",
+  "version": "0.0.1",
+  "description": "Lightweight JavaScript reactive template engine — simple, fast, declarative, and powerful.",
+  "keywords": [
+    "puffvjs",
+    "puffv",
+    "reactive",
+    "templating",
+    "jsx alternative",
+    "template engine",
+    "minimalist",
+    "frontend",
+    "runtime"
+  ],
+  "homepage": "https://puffv.kyrt.my.id",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KhairyK/puffv.git"
+  },
+  "license": "MIT",
+  "author": "OpenDN Foundation (PHPin)",
+  "type": "module",
+  "main": "dist/puffv.cjs",
+  "module": "dist/puffv.mjs",
+  "browser": "dist/puffv.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./dist/puffv.mjs",
+      "require": "./dist/puffv.cjs",
+      "browser": "./dist/puffv.js"
+    }
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  }
+}
