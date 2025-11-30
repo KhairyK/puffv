@@ -234,7 +234,7 @@ const c = new Chart('#chart', {
 
 ### Picture Preview
 
-<img align="center" src="assets/preview.png" height="200" width="200" alt="No Image" />
+<img align="center" src="assets/preview.png" height="350" width="350" alt="No Image" />
 
 ---
 
