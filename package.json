@@ -21,16 +21,16 @@
   "license": "MIT",
   "author": "OpenDN Foundation (PHPin)",
   "type": "module",
-  "main": "dist/puffv.cjs",
-  "module": "dist/puffv.mjs",
-  "browser": "dist/puffv.js",
+  "main": "dist/puffv.min.js",
+  "module": "dist/puffv.min.js",
+  "browser": "dist/puffv.min.js",
   "types": "index.d.ts",
   "exports": {
     ".": {
       "types": "./index.d.ts",
-      "import": "./dist/puffv.mjs",
-      "require": "./dist/puffv.cjs",
-      "browser": "./dist/puffv.js"
+      "import": "./dist/puffv.min.js",
+      "require": "./dist/puffv.min.js",
+      "browser": "./dist/puffv.min.js"
     }
   },
   "scripts": {
