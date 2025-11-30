@@ -22,7 +22,7 @@ export default [
     plugins: [resolve()]
   },
   {
-    input: "src/puffv.js",
+    input: "dist/puffv.min.js",
     output: {
       file: "dist/puffv.umd.min.js",
       format: "umd",
@@ -32,7 +32,7 @@ export default [
     plugins: [resolve(), terser()]
   },
   {
-    input: "src/puffv.js",
+    input: "dist/puffv.min.js",
     output: {
       file: "dist/puffv.esm.js",
       format: "es",
@@ -41,7 +41,7 @@ export default [
     plugins: [resolve(), terser()]
   },
   {
-    input: "src/puffv.js",
+    input: "dist/puffv.min.js",
     output: {
       file: "dist/puffv.cjs",
       format: "cjs",
