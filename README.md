@@ -174,7 +174,7 @@ c.startStream(); // akan otomatis juga dipanggil di constructor jika stream dibe
 ```
 
 ## Contoh SSE
-```
+```JS
 const c = new Chart('#chart', {
   stream: { type: 'sse', url: 'https://example.com/sse' }
 });
