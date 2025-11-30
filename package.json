@@ -30,6 +30,6 @@
     "dist/"
   ], 
 "scripts": {
-  "build": "rollup -c"
+  "build": "rollup --config"
   }
 }
