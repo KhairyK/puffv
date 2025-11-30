@@ -6,11 +6,9 @@
   "license": "MIT",
   "homepage": "https://puffv.opndnf.kyrt.my.id",
   "main": "dist/puffv.umd.js",
-  "module": "dist/puffv.esm.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/puffv.esm.js",
       "require": "./dist/puffv.umd.js",
       "types": "./dist/index.d.ts"
     }
