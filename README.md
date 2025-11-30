@@ -322,15 +322,27 @@ Silakan Anda Ke [Link Ini](https://demo.kyrt.my.id/puffvjs.php) Untuk Melihat De
 
 <footer style="
   margin-top:60px;
-  padding:25px 0;
+  padding:32px 0;
   text-align:center;
   font-size:14px;
   opacity:.85;
+  line-height:1.6;
+  border-top:1px solid #e2e2e2;
 ">
-  <div style="font-weight:600; font-size:15px;">OpenDN Foundation</div>
-  <div style="margin-top:4px;">© 2025 — PHPin</div>
+  <div style="font-weight:700; font-size:16px; margin-bottom:2px;">
+    OpenDN Foundation
+  </div>
+  <div style="margin-bottom:10px;">
+    © 2025 — PHPin
+  </div>
+
   <div style="margin-top:8px;">
-    <a href="https://opendnf.kyrt.my.id" style="color:inherit; text-decoration:none; margin:0 8px;">Website</a> ·
-    <a href="https://github.com/KhairyK" style="color:inherit; text-decoration:none; margin:0 8px;">GitHub</a>
+    <a href="https://opendnf.kyrt.my.id" style="color:inherit; text-decoration:none; margin:0 10px;">
+      🌐 Website
+    </a>
+    <span style="opacity:.45;">•</span>
+    <a href="https://github.com/KhairyK" style="color:inherit; text-decoration:none; margin:0 10px;">
+      💻 GitHub
+    </a>
   </div>
 </footer>
