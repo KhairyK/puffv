@@ -250,8 +250,8 @@ const c = new Chart('#chart', {
    type: 'bar', 
    data: [10, 12, 10, 32], 
    labels: ['Mon', 'Tue', 'Wen', 'Thu'], 
-   theme: 'ocean'
-   renderer: 'webgl'
+   theme: 'ocean', 
+   renderer: 'webgl', 
  });
 </script>
 ```
