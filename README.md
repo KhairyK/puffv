@@ -1,8 +1,13 @@
 # PuffvJS 
 
+[![NPM Version](https://img.shields.io/npm/v/puffvjs.svg)](https://www.npmjs.com/package/puffvjs)
+[![NPM Downloads](https://img.shields.io/npm/dm/puffvjs.svg)](https://www.npmjs.com/package/puffvjs)
+[![gzip size](https://img.shields.io/bundlephobia/minzip/puffvjs?label=gzip)](https://bundlephobia.com/package/puffvjs)
+[![min size](https://img.shields.io/bundlephobia/min/puffvjs?label=min)](https://bundlephobia.com/package/puffvjs)
+
 ## Apa Itu PuffvJS? 
 
-_PuffvJS Adalah Library JavaScript Yang Menyediakan Visualisasi Data Secara Gratis & Mudah Digunakan Oleh Developer Indonesia_
+_PuffvJS Adalah Library JavaScript Yang Menyediakan Visualisasi Data Secara Gratis, Mudah, Dan Kecil. Ukuran File Hanya **18.81kb(Min)**._
 
 ## Cara menyertakan library
 
@@ -174,7 +179,7 @@ c.startStream(); // akan otomatis juga dipanggil di constructor jika stream dibe
 ```
 
 ## Contoh SSE
-```JS
+```
 const c = new Chart('#chart', {
   stream: { type: 'sse', url: 'https://example.com/sse' }
 });
@@ -225,7 +230,41 @@ const c = new Chart('#chart', {
 
 ---
 
-## Contoh lengkap: bar + streaming (ws) + zoomPan
+## Contoh Kode
+
+### Picture Preview
+
+<img align="center" src="assets/preview.png" height="200" width="200" alt="No Image" />
+
+---
+
+### Quick Start
+```HTML
+<div id="output" style="width:800px;height:420px;"></div>
+<!-- PuffvJS CDN -->
+<script src="https://cdn.kyrt.my.id/libs/js/puffvjs/1.0.0/puffvjs.min.js"></script>
+<!-- The Quick Start Code -->
+<script>
+ const Chart = { Puffv }
+ const c = new Chart('#output', {
+   type: 'bar', 
+   data: [10, 12, 10, 32], 
+   labels: ['Mon', 'Tue', 'Wen', 'Thu'], 
+   theme: 'ocean'
+   renderer: 'webgl'
+ });
+</script>
+```
+
+---
+
+### Demo Link
+
+Silakan Anda Ke [Link Ini](https://demo.kyrt.my.id/puffvjs.php) Untuk Melihat Demontrasi Nya
+
+---
+
+### Contoh lengkap: bar + streaming (ws) + zoomPan
 ```HTML
 <div id="bchart" style="width:800px;height:420px;"></div>
 
@@ -281,6 +320,17 @@ const c = new Chart('#chart', {
 
 ---
 
-<footer align="center">
- 2025 © OpenDN Foundation (PHPin)
+<footer style="
+  margin-top:60px;
+  padding:25px 0;
+  text-align:center;
+  font-size:14px;
+  opacity:.85;
+">
+  <div style="font-weight:600; font-size:15px;">OpenDN Foundation</div>
+  <div style="margin-top:4px;">© 2025 — PHPin</div>
+  <div style="margin-top:8px;">
+    <a href="https://opendnf.kyrt.my.id" style="color:inherit; text-decoration:none; margin:0 8px;">Website</a> ·
+    <a href="https://github.com/KhairyK" style="color:inherit; text-decoration:none; margin:0 8px;">GitHub</a>
+  </div>
 </footer>
