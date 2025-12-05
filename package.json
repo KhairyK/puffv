@@ -21,9 +21,9 @@
 "repository": {
   "type": "git",
   "url": "https://github.com/KhairyK/puffv.git"
-  }
+  }, 
 "engines": {
   "node": ">=18",
   "npm": ">=8"
-}
+ }
 }
