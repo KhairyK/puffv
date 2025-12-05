@@ -2,17 +2,11 @@
   "name": "puffvjs",
   "version": "0.0.1",
   "description": "Modern lightweight charting library with WebGL & SVG renderer — PuffvJS",
-  "author": "OpenDN Foundation (PHPin)",
+  "author": "Sholehuddin",
   "license": "MIT",
   "homepage": "https://puffv.opndnf.kyrt.my.id",
-  "main": "dist/puffv.umd.js",
+  "main": "dist/puffv.min.js",
   "types": "dist/index.d.ts",
-  "exports": {
-    ".": {
-      "require": "./dist/puffv.umd.js",
-      "types": "./dist/index.d.ts"
-    }
-  },
   "keywords": [
     "chart",
     "charts",
@@ -24,10 +18,12 @@
     "data",
     "analytics"
   ],
-  "files": [
-    "dist/"
-  ], 
-"scripts": {
-  "build": "rollup --config"
+"repository": {
+  "type": "git",
+  "url": "https://github.com/KhairyK/puffv.git"
   }
+"engines": {
+  "node": ">=18",
+  "npm": ">=8"
+}
 }
