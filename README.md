@@ -20,8 +20,7 @@ _PuffvJS Adalah Library JavaScript Yang Menyediakan Visualisasi Data Secara Grat
 <!-- Asumsikan file puffv.js sudah di-serve -->
 <script src="puffv.js"></script>
 <script>
-  // global Puffv tersedia
-  const { Chart } = Puffv;
+  const c = new Puffv.Chart("#output", {});
 </script>
 ```
 2) CommonJS / Node (require)
@@ -312,7 +311,7 @@ Silakan Anda Ke [Link Ini](https://demo.kyrt.my.id/puffvjs.php) Untuk Melihat De
 
 - Update seluruh: `c.updateData([..], [..])`
 
-- Tambah satu: `c.pushDatum(val, label)``
+- Tambah satu: `c.pushDatum(val, label)`
 
 - Stream: stream: `{type:'ws'|'sse', url: '...'}` atau stream: `function(chart) {...}`
 
